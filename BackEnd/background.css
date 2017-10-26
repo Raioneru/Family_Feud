@@ -1,0 +1,110 @@
+html{
+	background-image: url(FF.jpg);
+	background-color: #7828AF;
+	background-repeat: no-repeat;
+	background-position: 70px 20px;
+
+
+}
+.points{
+	background-color: transparent;
+	border: solid;
+	font-size: 22pt;
+	text-align: center;
+	color:white;
+	margin-right: 15px;
+	margin-left: -5px;
+	text-align: center;
+	width: 65px;
+	height: 73px;
+}
+
+.teamA{
+	position: absolute;
+	font-weight: bold;
+	font-size: 30pt;
+	left: 40px;
+	top: 70px;
+	color: red;
+}
+.teamB{
+	position: absolute;
+	font-weight: bold;
+	font-size: 30pt;
+	left: 1100px;
+	top: 70px;
+	color: blue;
+}
+
+#redX{
+	position: absolute;
+	font-weight: bold;
+	font-size: 30pt;
+	left: 85px;
+	top: 505px;
+	height: 50px;
+	width: 50px;
+	color: red;
+	border: none;
+}
+
+#XXX1{
+	position: absolute;
+	left: 360px;
+	top: 250px;
+	z-index: 100;
+}
+#XXX2{
+	position: absolute;
+	left: 560px;
+	top: 250px;
+	z-index: 100;
+}
+#XXX3{
+	position: absolute;
+	left: 760px;
+	top: 250px;
+	z-index: 100;
+}
+
+#clockdiv{
+	background-color: transparent;
+	border: none;
+	font-size: 70pt;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	position: absolute;
+	left: 590px;
+	top: 20px;
+}
+
+table{
+	border: solid;
+	position: absolute;
+	left: 313px;
+	top: 170px;
+}
+
+button{
+	background-color: transparent;
+	border: solid;
+	font-size: 22pt;
+	text-align: center;
+	color:white;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+	width: 238px;
+	height: 73px;
+}
+
+#New{
+	position: absolute;
+	left: 513px;
+	top: 570px;
+	color:black;
+}
+
+

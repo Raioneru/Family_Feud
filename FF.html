@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<header lang="en">
+	<meta charset="utf-8">
+	<title>Family Feud</title>	
+	
+	<script src="C:/Users/Leon/Desktop/Programs/jquery.min.js"></script>
+	<script type="text/Javascript"></script>
+	<link rel="stylesheet" type="text/css" href="./BackEnd/background.css">
+</header>
+
+<body onload = "nGame()">
+<p id="rounNum"></p>
+<img id="XXX1" src="./BackEND/X.png" height="200px" width="150px">
+<img id="XXX2" src="./BackEND/X.png" height="200px" width="150px">
+<img id="XXX3" src="./BackEND/X.png" height="200px" width="150px">
+<div id="clockdiv">
+  <div>
+    <span class="seconds"></span>
+  </div>
+</div>
+
+<p class="teamA">Team A</p>
+<textarea class="teamA" rows="1" cols="3">
+0
+</textarea>
+<p class="teamB">Team B</p>
+<textarea class="teamB" rows="1" cols="3 ">
+0
+</textarea>
+
+
+<table>
+<tr>
+<td><button id="11" onclick="check(id)">1</button></td>
+<td><button class="points" id="11pts" onclick="check(11)"></button></td>
+<td><button id="12" onclick="check(id)">5</button></td>
+<td><button class="points" id="12pts" onclick="check(12)"></button></td>
+</tr>
+<tr>
+<td><button id="21" onclick="check(id)">2</button></td>
+<td><button class="points" id="21pts" onclick="check(21)"></button></td>
+<td><button id="22" onclick="check(id)">6</button></td>
+<td><button class="points" id="22pts" onclick="check(22)"></button></td>
+</tr>
+<tr>
+<td><button id="31" onclick="check(id)">3</button></td>
+<td><button class="points" id="31pts" onclick="check(31)"></button></td>
+<td><button id="32" onclick="check(id)">7</button></td>
+<td><button class="points" id="32pts" onclick="check(32)"></button></td>
+</tr>
+<tr>
+<td><button id="41" onclick="check(id)">4</button></td>
+<td><button class="points" id="41pts" onclick="check(41)"></button></td>
+<td><button id="42" onclick="check(id)">8</button></td>
+<td><button class="points" id="42pts" onclick="check(42)"></button></td>
+</tr>
+</table>
+
+
+
+<button id="redX" onclick="showX()">X</button>
+<audio id="buzzer" src="./BackEnd/Buzzer.mp3"></audio>  
+
+
+
+
+<td><button id="New" onclick="nGame()">New Round</button></td>
+
+<script type = "text/javascript" src = "./BackEnd/FF.js"></script>
+</body>
